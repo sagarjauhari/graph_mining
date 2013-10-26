@@ -1,0 +1,144 @@
+
+#####amazon_1-2
+True Positive:	15144.0
+False Positive:	1.0
+False Negative:	4565.0
+True Negative:	3104040.0
+Recall:		0.7684
+Precision:	0.9999
+F-Measure:	0.869
+Specificity:	1.0
+RAND Index:	0.9985
+Density:		0.214
+Clustering Coefficient:	0.5269
+Separability:		0.2429
+Cohesiveness:		0.0036
+Normalized Mutual Information:	1.0674
+
+#####amazon_3-3
+True Positive:	11935.0
+False Positive:	637357.0
+False Negative:	7774.0
+True Negative:	2466684.0
+Recall:		0.6056
+Precision:	0.0184
+F-Measure:	0.0357
+Specificity:	0.7947
+RAND Index:	0.7935
+Density:		0.0433
+Clustering Coefficient:	0.4485
+Separability:		0.1612
+Cohesiveness:		0.0
+Normalized Mutual Information:	0.4368
+
+#####amazon_5-2
+True Positive:	4679.0
+False Positive:	12849.0
+False Negative:	15030.0
+True Negative:	3091192.0
+Recall:		0.2374
+Precision:	0.2669
+F-Measure:	0.2513
+Specificity:	0.9959
+RAND Index:	0.9911
+Density:		0.3062
+Clustering Coefficient:	0.2183
+Separability:		0.0832
+Cohesiveness:		0.0965
+Normalized Mutual Information:	0.6149
+
+#####dblp_1-2
+True Positive:	7915.0
+False Positive:	50.0
+False Negative:	2995.0
+True Negative:	3112790.0
+Recall:		0.7255
+Precision:	0.9937
+F-Measure:	0.8387
+Specificity:	1.0
+RAND Index:	0.999
+Density:		0.3803
+Clustering Coefficient:	0.6975
+Separability:		0.445
+Cohesiveness:		0.005
+Normalized Mutual Information:	1.0128
+
+#####dblp_3-3
+True Positive:	5780.0
+False Positive:	573577.0
+False Negative:	5130.0
+True Negative:	2539263.0
+Recall:		0.5298
+Precision:	0.01
+F-Measure:	0.0196
+Specificity:	0.8157
+RAND Index:	0.8147
+Density:		0.0646
+Clustering Coefficient:	0.8833
+Separability:		0.2043
+Cohesiveness:		0.0
+Normalized Mutual Information:	0.405
+
+#####dblp_5-2
+True Positive:	3565.0
+False Positive:	12500.0
+False Negative:	7345.0
+True Negative:	3100340.0
+Recall:		0.3268
+Precision:	0.2219
+F-Measure:	0.2643
+Specificity:	0.996
+RAND Index:	0.9936
+Density:		0.6104
+Clustering Coefficient:	0.3565
+Separability:		0.1501
+Cohesiveness:		0.1441
+Normalized Mutual Information:	0.6085
+
+#####youtube_1-2
+True Positive:	3286.0
+False Positive:	607.0
+False Negative:	1084.0
+True Negative:	3121273.0
+Recall:		0.7519
+Precision:	0.8441
+F-Measure:	0.7954
+Specificity:	0.9998
+RAND Index:	0.9995
+Density:		0.3335
+Clustering Coefficient:	0.0126
+Separability:		0.3642
+Cohesiveness:		0.2618
+Normalized Mutual Information:	1.0046
+
+#####youtube_3-3
+True Positive:	2378.0
+False Positive:	573859.0
+False Negative:	1992.0
+True Negative:	2548021.0
+Recall:		0.5442
+Precision:	0.0041
+F-Measure:	0.0082
+Specificity:	0.8162
+RAND Index:	0.8158
+Density:		0.0023
+Clustering Coefficient:	0.0792
+Separability:		0.0913
+Cohesiveness:		0.0
+Normalized Mutual Information:	0.4328
+
+#####youtube_5-2
+True Positive:	899.0
+False Positive:	4535.0
+False Negative:	3471.0
+True Negative:	3117345.0
+Recall:		0.2057
+Precision:	0.1654
+F-Measure:	0.1834
+Specificity:	0.9985
+RAND Index:	0.9974
+Density:		0.3337
+Clustering Coefficient:	0.0117
+Separability:		0.3204
+Cohesiveness:		0.2708
+Normalized Mutual Information:	0.6058

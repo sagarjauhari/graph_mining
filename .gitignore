@@ -36,3 +36,4 @@ nosetests.xml
 
 # Custom
 *.pdf
+*dev_settings*
