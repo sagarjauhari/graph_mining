@@ -10,6 +10,11 @@ import ConfusionMatrixMetrics
 import GoodnessPerformanceMetrics
 import NormalizedMutualInformation
 
+try:
+   from dev_settings import *
+except ImportError:
+   pass
+
 # <codecell>
 
 def do_perf():
