@@ -19,12 +19,19 @@ except ImportError:
 
 def do_perf():
     sets = ["amazon", "dblp", "youtube"]
-    tests = ["1-2", "3-3", "5-2"]
+    tests = ["2-2", "1-4", "4-2", "3-3"]
     
     for i in iters.product(sets, tests):
-        comm_path = T_OUT+i[0]+".mycomm.small_"+i[1]
-        grnd_path = DATA+i[0]+".comm.small"
-        grph_path = DATA+i[0]+".graph.small"
+        if i[1]=="3-3":
+            g_size="small"
+        elif i[0]=="youtube" and i[1]=="2-2":
+            g_size="large"
+        else:
+            g_size="original"
+        
+        comm_path = T_OUT+i[0]+".mycomm." + g_size+"_"+i[1]
+        grnd_path = DATA+i[0]+".comm." + g_size
+        grph_path = DATA+i[0]+".graph." + g_size
         
         with open(grph_path, 'r') as f:
             n = next(f).split(' ')[0]
